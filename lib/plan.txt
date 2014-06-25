@@ -1,0 +1,17 @@
+TimeFactory
+	Week[] CreateWeeks(Time[] punches)
+	Shift[] CreateShifts(Time[] punches)
+	
+	
+	
+Week
+	Shifts
+	Total()
+
+Shift
+	Punches
+	Total()
+	BreakTime()
+	
+		
+
